@@ -1,5 +1,10 @@
 package com.example.cashregister.service;
 
 
-public interface UserService {
+
+public interface ActivityService {
+
+
+
+
 }

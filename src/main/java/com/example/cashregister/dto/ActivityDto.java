@@ -10,12 +10,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class ActivityDto {
-    private Integer couponId;
+    private Integer couponId;//优惠卷
     private String  couponName	;
     private Integer createdAt	;
-    private Integer eventType	;
+    private Integer eventType	;//活动类型
     private Integer id	;
-    private Integer quantity	;
-    private Integer status	;
+    private Integer quantity	;//数量
+    private Integer status	;//状态
 
 }

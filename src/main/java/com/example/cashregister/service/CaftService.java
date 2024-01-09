@@ -1,5 +1,5 @@
 package com.example.cashregister.service;
 
 
-public interface UserService {
+public interface CaftService {
 }

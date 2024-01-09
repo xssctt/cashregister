@@ -16,15 +16,12 @@ public class BillOrderDto {
     private String address	;
     private String areaName	;
     private Integer cardId	;
-    private ConsumeDto[] consumeList;
-    private CouponDto[] couponList;
     private String createdAt	;
     private String discount	;
     private Integer id	;
     private Integer memberId	;
     private String name	;
     private String number	;
-    private PaymentDetailDto[] paymentList;
     private String paymentStatus	;
     private Integer percentage	;
     private Integer plateId	;
@@ -36,5 +33,10 @@ public class BillOrderDto {
     private String telephone	;
     private String totalFee	;
     private String totalPerson	;
+
+
+    private PaymentDetailDto[] paymentList;
+    private ConsumeDto[] consumeList;
+    private CouponDto[] couponList;
 
 }
